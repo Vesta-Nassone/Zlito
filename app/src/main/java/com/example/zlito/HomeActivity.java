@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         // initialize widgets
         Button loginButton = findViewById(R.id.loginBtn);
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent loginIntent = new Intent(getApplicationContext(), WelcomeActivity.class);
+                Intent loginIntent = new Intent(getApplicationContext(), Homepage.class);
                 //passing info into the new Activity
                 startActivity(loginIntent);
             }
