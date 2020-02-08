@@ -1,0 +1,2 @@
+# Zlito
+This is an Android app named Zlito. Zlto is a web-based digital rewards platform that incentivizes young people to gain work experience by volunteering in the community. Users build a digital resume by uploading completed work assignments, showing both their impact on the project and the skills they gained while completing the task. For each project they also earn Zlto, a digital currency that can be spent on a range of items, like food, clothing, mobile data and transportation, thanks to collaborations with national retail partners. 
